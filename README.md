@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .service-box {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fafafa;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Sample Website</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Home</h2>
+  <p>This is a simple one-page website built with HTML and CSS.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a creative team offering web development and design services.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>Web Design</h3>
+      <p>Clean and modern web design for your business.</p>
+    </div>
+    <div class="service-box">
+      <h3>Development</h3>
+      <p>Full-stack web development using modern tools.</p>
+    </div>
+    <div class="service-box">
+      <h3>SEO</h3>
+      <p>Optimize your site to rank better on search engines.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: sample@example.com</p>
+  <p>Phone: +91 12345 67890</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Sample Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
